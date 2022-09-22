@@ -1,0 +1,19 @@
+{
+  "AUDITOR_TYPE": "LoggingAuditor",
+  "CA_CERT_PATH": "/opt/conf/cacert.pem",
+  "CHECKPOINT_OUTPUT": "STDOUT",
+  "EMBEDDED_ACLS": "https://embedded.devcerner.com, https://embedded.test.devcernerpowerchart.com, https://embedded.sandboxcerner.com, https://embedded.cerner.com, https://embedded.test.stagingcernerpowerchart.com",
+  "EMBEDDED_SUPPORTED_VERSION": "2",
+  "HI_CHECKUP_WHITELIST": "192.168.0.0/16",
+  "HTTP_READ_TIMEOUT": "40",
+  "HTTP_OPEN_TIMEOUT": "40",
+  "LOG_OUTPUT": "STDOUT",
+  "NEW_RELIC_AGENT_ENABLED": "true",
+  "NEW_RELIC_LABELS": "tier:TestHarness;organization:CloudAppDev",
+  "NEW_RELIC_LOG_LEVEL": "info",
+  "RAILS_ENV": "production",
+  "SPLUNK_FORMAT": "json",
+  "SPLUNK_SOURCETYPE": "rails_passenger",
+  "TIMBER_OUTPUT": "STDOUT",
+  "TIMBER_FORMAT": "JSON"
+}
